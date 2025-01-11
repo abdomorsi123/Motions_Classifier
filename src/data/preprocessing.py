@@ -59,8 +59,7 @@ class DataPreprocessor:
             file_path: Path to the CSV file
         """
         try:
-            logger.info(f"Processing {file_path}")
-            
+                       
             # Read all data
             data = []
             with open(file_path, 'r') as f:
@@ -79,7 +78,6 @@ class DataPreprocessor:
             
             # Save preprocessed data
             df.to_csv(file_path, index=False, header=False)
-            logger.info(f"Successfully preprocessed {file_path}")
             
         except Exception as e:
             logger.error(f"Error preprocessing file {file_path}: {str(e)}")
@@ -98,6 +96,8 @@ class DataPreprocessor:
             logger.info(f"Found {len(csv_files)} files in {dataset_type} directory")
             for file_path in csv_files:
                 self.preprocess_file(file_path)
+            logger.info(f"Successfully processed {len(csv_files)} files in {dataset_type} directory")
+
     
     @staticmethod
     def normalize_sequence(sequence: np.ndarray) -> np.ndarray:
