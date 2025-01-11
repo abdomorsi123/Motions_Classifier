@@ -1,0 +1,54 @@
+# Data Configuration
+data:
+  base_path: "data"
+  train_dir: "train"
+  test_dir: "test"
+  remove_legs: true
+  max_sequence_length: 350
+
+# Dataset Configuration
+dataset:
+  batch_size: 16        # decrease from 32
+  val_split: 0.2
+  shuffle: true
+  num_workers: 4
+
+# Model Configuration
+model:
+  input_size: 49        # Number of features per timestep (45 points & 4 angels)
+  hidden_size: 256      # increase from 128
+  num_layers: 3         # increase from 2
+  dropout: 0.3          # increase from 0.2
+  num_attention_heads: 4
+
+# Training Configuration
+training:
+  num_epochs: 50
+  learning_rate: 0.0005   # decrease from 0.001
+  weight_decay: 0.01
+  label_smoothing: 0.1
+  clip_value: 1.0
+  patience: 5           # increase from 3 
+  device: "cuda"        # Will be overridden by code if cuda not available
+
+# Visualization Configuration
+visualization:
+  fps: 30
+  figure_size: [6, 10]
+  keypoint_colors:
+    right_arm: "red"
+    left_arm: "blue"
+    spine: "magenta"
+    face: "yellow"
+
+# Paths Configuration
+paths:
+  frames_dir: "frames"
+  outputs_dir: "videos"
+  checkpoints_dir: "checkpoints"
+  logs_dir: "logs"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

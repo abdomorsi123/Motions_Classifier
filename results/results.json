@@ -1,0 +1,320 @@
+{
+  "trials": {
+    "trial_01": {
+      "last_epoch_results": {
+        "epoch": 26,
+        "train_loss": 0.4339,
+        "train_acc": 99.89,
+        "val_loss": 0.4445,
+        "val_acc": 98.72,
+        "early_stopping": true
+      },
+      "classification_report": {
+        "boxing": {
+          "precision": 0.921875,
+          "recall": 0.983333,
+          "f1_score": 0.951613,
+          "support": 60
+        },
+        "drums": {
+          "precision": 0.777778,
+          "recall": 0.903226,
+          "f1_score": 0.835821,
+          "support": 62
+        },
+        "guitar": {
+          "precision": 0.823529,
+          "recall": 0.688525,
+          "f1_score": 0.75,
+          "support": 61
+        },
+        "rowing": {
+          "precision": 0.983871,
+          "recall": 1.0,
+          "f1_score": 0.99187,
+          "support": 61
+        },
+        "violin": {
+          "precision": 0.946429,
+          "recall": 0.868852,
+          "f1_score": 0.905983,
+          "support": 61
+        },
+        "accuracy": 0.888525,
+        "macro_avg": {
+          "precision": 0.890696,
+          "recall": 0.888787,
+          "f1_score": 0.887057,
+          "support": 305
+        },
+        "weighted_avg": {
+          "precision": 0.890224,
+          "recall": 0.888525,
+          "f1_score": 0.886678,
+          "support": 305
+        }
+      },
+      "confusion_matrix": [
+        [59, 0, 0, 0, 1],
+        [2, 56, 3, 1, 0],
+        [2, 15, 42, 0, 2],
+        [0, 0, 0, 61, 0],
+        [1, 1, 6, 0, 53]
+      ]
+    },
+    "trial_02": {
+      "last_epoch_results": {
+        "epoch": 26,
+        "train_loss": 0.4275,
+        "train_acc": 100.0,
+        "val_loss": 0.4505,
+        "val_acc": 98.72,
+        "early_stopping": true
+      },
+      "classification_report": {
+        "boxing": {
+          "precision": 0.880597,
+          "recall": 0.983333,
+          "f1_score": 0.929134,
+          "support": 60
+        },
+        "drums": {
+          "precision": 0.790323,
+          "recall": 0.790323,
+          "f1_score": 0.790323,
+          "support": 62
+        },
+        "guitar": {
+          "precision": 0.737705,
+          "recall": 0.737705,
+          "f1_score": 0.737705,
+          "support": 61
+        },
+        "rowing": {
+          "precision": 0.938462,
+          "recall": 1.0,
+          "f1_score": 0.968254,
+          "support": 61
+        },
+        "violin": {
+          "precision": 0.96,
+          "recall": 0.786885,
+          "f1_score": 0.864865,
+          "support": 61
+        },
+        "accuracy": 0.859016,
+        "macro_avg": {
+          "precision": 0.861417,
+          "recall": 0.859649,
+          "f1_score": 0.858056,
+          "support": 305
+        },
+        "weighted_avg": {
+          "precision": 0.861121,
+          "recall": 0.859016,
+          "f1_score": 0.857601,
+          "support": 305
+        }
+      },
+      "confusion_matrix": [
+        [59, 0, 1, 0, 0],
+        [0, 49, 8, 4, 1],
+        [2, 13, 45, 0, 1],
+        [0, 0, 0, 61, 0],
+        [6, 0, 7, 0, 48]
+      ]
+    },
+    "trial_03": {
+      "last_epoch_results": {
+        "epoch": 16,
+        "train_loss": 0.4551,
+        "train_acc": 99.25,
+        "val_loss": 0.5104,
+        "val_acc": 95.3,
+        "early_stopping": true
+      },
+      "classification_report": {
+        "boxing": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1_score": 0.857143,
+          "support": 60
+        },
+        "drums": {
+          "precision": 0.93617,
+          "recall": 0.709677,
+          "f1_score": 0.807339,
+          "support": 62
+        },
+        "guitar": {
+          "precision": 0.829268,
+          "recall": 0.557377,
+          "f1_score": 0.666667,
+          "support": 61
+        },
+        "rowing": {
+          "precision": 0.953125,
+          "recall": 1.0,
+          "f1_score": 0.976,
+          "support": 61
+        },
+        "violin": {
+          "precision": 0.726027,
+          "recall": 0.868852,
+          "f1_score": 0.791045,
+          "support": 61
+        },
+        "accuracy": 0.82623,
+        "macro_avg": {
+          "precision": 0.838918,
+          "recall": 0.827181,
+          "f1_score": 0.819639,
+          "support": 305
+        },
+        "weighted_avg": {
+          "precision": 0.839529,
+          "recall": 0.82623,
+          "f1_score": 0.819475,
+          "support": 305
+        }
+      },
+      "confusion_matrix": [
+        [60, 0, 0, 0, 0],
+        [6, 44, 6, 3, 3],
+        [7, 3, 34, 0, 17],
+        [0, 0, 0, 61, 0],
+        [7, 0, 1, 0, 53]
+      ]
+    },
+    "trial_04": {
+      "last_epoch_results": {
+        "epoch": 19,
+        "train_loss": 0.4633,
+        "train_acc": 99.14,
+        "val_loss": 0.4867,
+        "val_acc": 97.44,
+        "early_stopping": true
+      },
+      "classification_report": {
+        "boxing": {
+          "precision": 0.826087,
+          "recall": 0.95,
+          "f1_score": 0.883721,
+          "support": 60
+        },
+        "drums": {
+          "precision": 0.746835,
+          "recall": 0.951613,
+          "f1_score": 0.836879,
+          "support": 62
+        },
+        "guitar": {
+          "precision": 0.709091,
+          "recall": 0.639344,
+          "f1_score": 0.672414,
+          "support": 61
+        },
+        "rowing": {
+          "precision": 0.966102,
+          "recall": 0.934426,
+          "f1_score": 0.95,
+          "support": 61
+        },
+        "violin": {
+          "precision": 1.0,
+          "recall": 0.704918,
+          "f1_score": 0.826923,
+          "support": 61
+        },
+        "accuracy": 0.836066,
+        "macro_avg": {
+          "precision": 0.849623,
+          "recall": 0.83606,
+          "f1_score": 0.833987,
+          "support": 305
+        },
+        "weighted_avg": {
+          "precision": 0.849363,
+          "recall": 0.836066,
+          "f1_score": 0.833834,
+          "support": 305
+        }
+      },
+      "confusion_matrix": [
+        [57, 0, 3, 0, 0],
+        [0, 59, 2, 1, 0],
+        [2, 20, 39, 0, 0],
+        [4, 0, 0, 57, 0],
+        [6, 0, 11, 1, 43]
+      ]
+    },
+    "trial_05": {
+      "last_epoch_results": {
+        "epoch": 34,
+        "train_loss": 0.4244,
+        "train_acc": 99.89,
+        "val_loss": 0.429,
+        "val_acc": 98.29,
+        "early_stopping": true
+      },
+      "classification_report": {
+        "boxing": {
+          "precision": 0.952381,
+          "recall": 1.0,
+          "f1_score": 0.97561,
+          "support": 60
+        },
+        "drums": {
+          "precision": 0.882353,
+          "recall": 0.967742,
+          "f1_score": 0.923077,
+          "support": 62
+        },
+        "guitar": {
+          "precision": 0.764706,
+          "recall": 0.852459,
+          "f1_score": 0.806202,
+          "support": 61
+        },
+        "rowing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 61
+        },
+        "violin": {
+          "precision": 1.0,
+          "recall": 0.737705,
+          "f1_score": 0.849057,
+          "support": 61
+        },
+        "accuracy": 0.911475,
+        "macro_avg": {
+          "precision": 0.919888,
+          "recall": 0.911581,
+          "f1_score": 0.910789,
+          "support": 305
+        },
+        "weighted_avg": {
+          "precision": 0.919658,
+          "recall": 0.911475,
+          "f1_score": 0.910617,
+          "support": 305
+        }
+      },
+      "confusion_matrix": [
+        [60, 0, 0, 0, 0],
+        [0, 60, 2, 0, 0],
+        [1, 8, 52, 0, 0],
+        [0, 0, 0, 61, 0],
+        [2, 0, 14, 1, 45]
+      ]
+    }
+  },
+  "final_metrics": {
+    "accuracy": { "mean": 0.864462, "std_dev": 0.034025 },
+    "precision": { "mean": 0.872729, "std_dev": 0.032142 },
+    "recall": { "mean": 0.86045, "std_dev": 0.032716 },
+    "f1_score": { "mean": 0.860919, "std_dev": 0.034322 }
+  }
+}
